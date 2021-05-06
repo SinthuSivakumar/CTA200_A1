@@ -7,6 +7,8 @@ int main() {
 
     double result = average(4, arr);
 
+    printf("Bounded");
+
     printf("The average of 1, 2, 3 and 4 is: %.4f\n", result);
     return 0;    
 }
