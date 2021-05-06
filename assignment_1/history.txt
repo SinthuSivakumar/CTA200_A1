@@ -1,0 +1,633 @@
+    1  pwd
+    2  dir
+    3  cd CTA200H/
+    4  dir
+    5  cd ..
+    6  pwd
+    7  /mnt/scratch-lustre
+    8  cd /mnt/scratch-lustre
+    9  dir
+   10  cd student08
+   11  dir
+   12  ls -la
+   13  cd ..
+   14  pwd
+   15  cd cta200
+   16  dir
+   17  ls -la
+   18  cd ..
+   19  pwd
+   20  cd ..
+   21  pwd
+   22  cd CTA200
+   23  dir
+   24  cd CTA200H/
+   25  dir
+   26  cd
+   27  pwd
+   28  git config
+   29  git config --list
+   30  git config --global user.email sinthu.sivakumar@mail.utoronto.ca
+   31  git config --list
+   32  cd
+   33  mkdir -p repos/gauss2d.git
+   34  cd repos/gauss2d.git
+   35  git init --bare
+   36  dir
+   37  cd /scratch-lustre/student08/gauss2d/
+   38  pwd
+   39  cd ..
+   40  pwd
+   41  cd ..
+   42  pwd
+   43  cp ~cta200/Research/gauss2d/ .
+   44  cd /mnt/scratch-lustre/student08
+   45  pwd
+   46  mkdir
+   47  mkdir gauss2d
+   48  cd /mnt/scratch-lustre/student08
+   49  dir
+   50  ls
+   51  pwd
+   52  ls -la
+   53  cd
+   54  pwd
+   55  cp ~cta200/Reseach/gauss2d/ .
+   56  cd /mnt/cta200
+   57  /mnt/scratch-lustre
+   58  cd /mnt/scratch-lustre
+   59  dir
+   60  cd cta200
+   61  cd Research
+   62  dir
+   63  cd
+   64  pwd
+   65  dir
+   66  git remote add origin https://github.com/SinthuSivakumar/CTA200.git
+   67  echo "# CTA200" >> README.md
+   68  git init
+   69  git add README.md
+   70  git commit -m "first commit"
+   71  git branch -M main
+   72  git remote add origin https://github.com/SinthuSivakumar/CTA200.git
+   73  git push -u origin main
+   74  cd
+   75  pwd
+   76  dir
+   77  cd README.md 
+   78  vim README.md 
+   79  pwd
+   80  dir
+   81  git init
+   82  git remite add origin https://github.com/SinthuSivakumar/CTA200.git
+   83  y
+   84  yes
+   85  pwd
+   86  git init
+   87  git remote add origin https://github.com/SinthuSivakumar/CTA200.git
+   88  dir
+   89  cd CTA200H/
+   90  dir
+   91  ls -l
+   92  ls -la
+   93  1+1
+   94  ls
+   95  pwd
+   96  cd /
+   97  pwd
+   98  ls
+   99  ls -la
+  100  \mnt
+  101  /mnt
+  102  cd
+  103  /mnt
+  104  cd mnt
+  105  cd /mnt
+  106  /pwd
+  107  pwd
+  108  cd /
+  109  pwd
+  110  ls -la
+  111  more ram
+  112  more var
+  113  head usr
+  114  head dev
+  115  ls
+  116  ls -la
+  117  cd ..
+  118  ls
+  119  cd
+  120  pwd
+  121  cd ..
+  122  pwd
+  123  ls
+  124  finger horrobin
+  125  cd /home/fhorrobin
+  126  ls
+  127  ls-la
+  128  ls -la
+  129  ls -la bin
+  130  ls > junk.txt
+  131  cd
+  132  ls > junk.txt
+  133  ls -la
+  134  more junk.txt
+  135  ls junk*
+  136  rm junk.txt 
+  137  mkdir Test_CTA200
+  138  ls -la
+  139  cd Test_CTA200
+  140  ls -la
+  141  pwd
+  142  ls ..
+  143  cd
+  144  pwd
+  145  ls -la
+  146  rm -dTest_CTA200
+  147  rm --help
+  148  rm -d Test_CTA200/
+  149  cd
+  150  pwd
+  151  ls -la
+  152  ls CTA*
+  153  rm -d Test_CTA200/ rmdir Test_CTA200/
+  154  cd
+  155  pwd
+  156  ls -la
+  157  mkdir CTA200H
+  158  cd
+  159  ls -la
+  160  ls CTA*
+  161  cd CTA200H/
+  162  dir
+  163  git clone https://github.com/CITA/CTA200H.git
+  164  ls
+  165  ls -la
+  166  cd CTA200H
+  167  ls
+  168  ls -la
+  169  cd .git
+  170  ls
+  171  ls -la
+  172  cd ..
+  173  ls
+  174  cd ..
+  175  pwd
+  176  cd ..
+  177  pwd
+  178  rm -rf CTA200H/
+  179  git clone https://github.com/CITA/CTA200H.git
+  180  ls
+  181  dir CTA200H/
+  182  dir lecture2
+  183  cd lecture2
+  184  cd lec
+  185  ls
+  186  dir CTA200H/
+  187  ls -la
+  188  cd CTA200H/
+  189  ls -la
+  190  cd lecture2
+  191  dir
+  192  m hello.py
+  193  vim hello.py
+  194  python hello.py
+  195  ipython
+  196  cd /mnt/raid-luster
+  197  cd /mnt/scratch-luster
+  198  cd /mnt/scratch-lustre
+  199  ls -la
+  200  cd murray
+  201  cd ..
+  202  pwd
+  203  whoami
+  204  cd student08
+  205  cd ~cta200/
+  206  pwd
+  207  ls -la
+  208  pushd /mnt/scratch-lustre/student08
+  209  ls -l
+  210  ls
+  211  ls -la
+  212  dir
+  213  pwd
+  214  pu
+  215  pushd /mnt/scratch-lustre/student08
+  216  pwd
+  217  find -name '*auss*'
+  218  dir
+  219  pwd
+  220  dir
+  221  pwd
+  222  cd ..
+  223  pwd
+  224  pushd /mnt/scratch-lustre/student08
+  225  pwd
+  226  cd ~cta200/
+  227  pwd
+  228  find -name '*auss*'
+  229  cp -r ~cta200/Research/gauss2d .
+  230  pwd
+  231  cd /
+  232  pws
+  233  pwd
+  234  cd /mnt/scratch-lustre/student08
+  235  pwd
+  236  cp -r ~cta200/Research/gauus2d .
+  237  cp -r ~cta200/Research/gauss2d .
+  238  dir
+  239  pwd
+  240  ls -la
+  241  cp -r ~cta200/Research/gauss2d .
+  242  pwd
+  243  cp -r ~cta200/Research/gauss2d
+  244  cp -r ~cta200/Research/gauss2d .
+  245  cd /
+  246  ls -la
+  247  dir
+  248  cp home.cosmo4
+  249  dir 
+  250  cd home.cosmo4
+  251  pwd
+  252  dir
+  253  cd student 08
+  254  dir
+  255  cd /student08
+  256  ls -la
+  257  cd /cita/h/home-2/student08
+  258  [wd
+  259  pwd
+  260  /
+  261  cd /
+  262  pwd
+  263  cd /mnt/scratch-lustre
+  264  dir
+  265  cd student08
+  266  cd ~cta200/
+  267  pwd
+  268  ls -la
+  269  cd Research
+  270  ls -la
+  271  pwd
+  272  pushd /mnt/scratch-lustre/student08
+  273  pushd
+  274  dir
+  275  pu
+  276  pushd 
+  277  dir
+  278  pushd
+  279  dir
+  280  pushd
+  281  pwd
+  282  pushd
+  283  pwd
+  284  pushd
+  285  pwd
+  286  cp -r ~cta200/Research/gauss2d .
+  287  ls -la
+  288  ./guass2d
+  289  pushd
+  290  pwd
+  291  cd guass2d
+  292  dir
+  293  cd gauss2d
+  294  ls -la
+  295  pwd
+  296  cd .procmaillrc
+  297  rm https://github.com/SinthuSivakumar/CTA200.git
+  298  dir
+  299  rm README.md 
+  300  dir
+  301  cd repos
+  302  dir
+  303  cd gauss2d.git
+  304  dir
+  305  cd
+  306  dir
+  307  cd Downloads
+  308  dir
+  309  ls -la
+  310  cd
+  311  cd CTA200H/
+  312  dir
+  313  vim README.md 
+  314  cdd projects
+  315  cd projects
+  316  dir
+  317  /cita/local/bin/passwd
+  318  cd
+  319  pwd
+  320  ls -la
+  321  rm Test_CTA200/
+  322  cd
+  323  pwd
+  324  dir
+  325  cd CTA200H/
+  326  dir
+  327  pwd
+  328  cd
+  329  pwd
+  330  /mnt
+  331  cd /mnt
+  332  dir
+  333  cd /scratch-lustre/student08/gauss2d
+  334  cd /scratch-lustre/cta200
+  335  cd /scratch-lustre
+  336  pwd
+  337  cp
+  338  /mnt/scratch-lustre/Research
+  339  /mnt/scratch-lustre
+  340  cd /mnt/scratch-lustre
+  341  dir
+  342  cd cta200
+  343  cd Research
+  344  dir
+  345  cd
+  346  cd ..
+  347  ls
+  348  find -name '*auss*'
+  349  pwd
+  350  cd /mnt/scratch-lustre/student08
+  351  rm -rf gauss2d/
+  352  dir
+  353  pwd
+  354  mkdir /mnt/sractch-lustre/student08/gauss2d
+  355  mkdir /mnt/scratch-lustre/student08/gauss2d
+  356  cd
+  357  pwd
+  358  git config --global user.email sinthu.sivakumar@mail.utoronto.ca
+  359  cd ~
+  360  mkdir -p repos/assignment1.git
+  361  cd repos/assignment1.git
+  362  git init --bare
+  363  pwd
+  364  dir
+  365  cd HEAD
+  366  vim HEAD
+  367  vim info
+  368  vimbranches
+  369  vim branches
+  370  cd
+  371  dir
+  372  cd repos
+  373  dir
+  374  cd assignment1
+  375  vim assignment1
+  376  quit
+  377  ipython
+  378  exist
+  379  cosmo4@cita.utoronto.ca
+  380  jupyter notebook --no-browser
+  381  module 
+  382  module load gcc/4.9.2 python/2.7.10
+  383  jupyter notebook --no-browser
+  384  dir
+  385  cd CTA200H/
+  386  pwd
+  387  dir
+  388  cd ..
+  389  pwd
+  390  mkdir CTA200_Assignment1
+  391  dir
+  392  cd CTA200_Assignment1/
+  393  dir
+  394  cd
+  395  pwd
+  396  dir
+  397  cd CTA200H
+  398  dir
+  399  cd lecture2
+  400  dir
+  401  more hello.py
+  402  whcih python
+  403  which python
+  404  python --version
+  405  module avail
+  406  python
+  407  ipython
+  408  cat hello.py
+  409  cat hello2.py
+  410  run hello2.py
+  411  quit
+  412  ipython
+  413  dir
+  414  jupyter notebook &
+  415  module load gcc/4.9.2 python/2.7.10-rolling
+  416  jupyter notebook &
+  417  jobs
+  418  kill %1
+  419  ps -ux
+  420  ps -ux | grep firefox
+  421  ps ux | grep firefox
+  422  kill -9 31869
+  423  firefox
+  424  pwd
+  425  ssh-keygen
+  426  pwd
+  427  dir
+  428  cd ~/.ssh
+  429  ls
+  430  more id_rsa.pub
+  431  ls
+  432  cd ..
+  433  ls
+  434  mkdir CTA200_A1
+  435  ls
+  436  cd CTA200_A1/
+  437  ls
+  438  git remote -v
+  439  git remote rm destination
+  440  got remote -v
+  441  git remote -v
+  442  git remote rm origin
+  443  git remote rm destination
+  444  git remote -v
+  445  pwd
+  446  echo "# CTA200_A1" >> README.md
+  447  git init
+  448  git add README.md
+  449  git commit -m "first commit"
+  450  git branch -M main
+  451  git remote add origin https://github.com/SinthuSivakumar/CTA200_A1.git
+  452  git push -u origin main
+  453  git remote add origin http://github.com/SinthuSivakumar/CTA200_A1.git
+  454  git status
+  455  ls -la
+  456  git remote add origin https://github.com/SinthuSivakumar/CTA200_A1.git
+  457  git remote -v
+  458  ls
+  459  ls -la
+  460  git branch
+  461  git push -u origin main
+  462  git remote set-url origin https://git@github.com:SinthuSivakumar/CTA200_A1.git
+  463  git push -u origin main
+  464  git remote set-url origin https://git@github.com/SinthuSivakumar/CTA200_A1.git
+  465  git push -u origin main
+  466  git remote rm origin
+  467  git remote -v
+  468  git remote add origin git@github.com:SinthuSivakumar/CTA200_A1.git
+  469  git push -u origin main
+  470  ls
+  471  git add LICENSE.txt
+  472  echo "# stuff" >> LICENSE.txt
+  473  git add LICENSE.txt 
+  474  ls -la
+  475  vim LICENSE.txt 
+  476  git comit -m "Added a Licence file"
+  477  yes
+  478  pwd
+  479  ls -la
+  480  dir
+  481  cd CTA200_A1/
+  482  dir
+  483  vim LICENSE.txt 
+  484  git commit -m "added License file"
+  485  git branch
+  486  git push origin main
+  487  vim LICENSE.txt 
+  488  commit -m "Probably changed content of LICENSE.txt"
+  489  git commit -m "Probably changed content of LICENSE.txt"
+  490  git push origin main
+  491  rm LICENSE.txt 
+  492  ls -la
+  493  licence -o LICENSE.txt mit
+  494  echo "Copyright (c) 2012-2021 Scott Chacon and others "
+  495  Permission is hereby granted, free of charge, to any person obtaining
+  496  a copy of this software and associated documentation files (the
+  497  "Software"), to deal in the Software without restriction, including
+  498  without limitation the rights to use, copy, modify, merge, publish,
+  499  distribute, sublicense, and/or sell copies of the Software, and to
+  500  permit persons to whom the Software is furnished to do so, subject to
+  501  the following conditions:
+  502  The above copyright notice and this permission notice shall be
+  503  included in all copies or substantial portions of the Software.
+  504  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+  505  EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+  506  MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+  507  NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+  508  LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+  509  OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+  510  WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.ls -la
+  511  ls
+  512  echo "stuff" >> LICENSE.txt
+  513  ls -la
+  514  vim LICENSE.txt 
+  515  git add LICENSE.txt 
+  516  git commit -m "Remade LICENSE.txt"
+  517  git push origin main
+  518  echo "stuff0" >> average.c
+  519  vim averga.c
+  520  cat average.c
+  521  vim average.c
+  522  cat average.c
+  523  echo "stuff1" >> average.h
+  524  vim average.h
+  525  cat average.h
+  526  echo "stuff2" >> main.c
+  527  vim main.c
+  528  cat main.c
+  529  mkdir assignmen_1
+  530  ls -la
+  531  rm -rf assignmen_1
+  532  ls -la
+  533  mkdir assignment_1
+  534  ls
+  535  mv average.c assignment_1
+  536  mv average.h assignment_1
+  537  mv main.c assignment_1
+  538  ls -la
+  539  cd assignment_1
+  540  ls -la
+  541  git add assignment_1
+  542  cd ..
+  543  ls -la
+  544  git add assignment_1
+  545  git commit -m "Added folder with three files"
+  546  git push origin main
+  547  ls -la
+  548  vim averga.c
+  549  rm averga.c
+  550  ls -la
+  551  vim Makefile
+  552  ls -la
+  553  vim Makefile
+  554  make
+  555  mv Makefile assignment_1
+  556  cd assignment_1
+  557  make
+  558  vim main.c
+  559  ls -la
+  560  echo "stuff12" >> main.c
+  561  vim main.c
+  562  ls
+  563  make
+  564  ls
+  565  echo "stuff12" >> main.c
+  566  vim main.c
+  567  vim Makefile
+  568  make
+  569  ls
+  570  vim main.c
+  571  vim Makefile
+  572  make
+  573  vim Makefile
+  574  make
+  575  vim Makefile
+  576  make
+  577  ls
+  578  vim main
+  579  make
+  580  yes
+  581  pwd
+  582  dir
+  583  cd CTA200_A1/
+  584  dir
+  585  cd assignment_1
+  586  ls -la
+  587  make
+  588  y
+  589  vim main
+  590  make
+  591  vim Makefile
+  592  make
+  593  ls
+  594  make
+  595  vim main
+  596  make
+  597  vim main
+  598  vim main.c
+  599  vim Makefile
+  600  make
+  601  cd ..
+  602  ls 
+  603  git commit -m "Created Makefile and added more files"
+  604  git push origin main
+  605  git add assignment_1/Makefile
+  606  git add assignment_1/average.0
+  607  git add assignment_1/average.o
+  608  git add assignment_1/main
+  609  git add assignment_1/main.o
+  610  git commit -m "Added Makefile and other files to assignment_1"
+  611  git push origin main
+  612  ls
+  613  cd assignment_1
+  614  ls
+  615  vim main.c
+  616  make
+  617  vim main.c
+  618  make
+  619  vim main.c
+  620  make
+  621  vim main.c
+  622  make
+  623  vim main.c
+  624  make
+  625  git commit -m "Added a print statment to main.c"
+  626  git push origin main
+  627  vim main.c
+  628  mkae
+  629  make
+  630  git add main.c
+  631  git commit -m "Added print statment in main.c"
+  632  git push origin main
+  633  history > history.txt
